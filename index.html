@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RShoe</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Loader start -->
+    <div class="loader">
+        <img src="./assets/images/tail-spin.svg" alt="">
+    </div>
+     <!-- Loader End -->
+
+
+     <!-- navigation start -->
+    <header>
+        <nav class="flex2">
+            <div class="logo">
+                <img src="./assets/images/logo (3).png" alt="">
+            </div>
+            <div class="menu">
+                <a  class="link" href="index.html" class="active">Home</a>
+                <a  class="link" href="#about">About</a>
+                <a  class="link" href="#feature">Features</a>
+                <a  class="link" href="#related">Related</a>
+                <a  class="link" href="#review">Review</a>
+                <a  class="link" href="#product">Products</a>
+                <a  class="link" href="#contact">Contact</a>
+            </div>
+            <i class="fa fa-bars"  id="bar"></i>
+        </nav>
+    </header>
+     <!-- navigation End -->
+
+
+       <!-- Banner start -->
+       <div class="banner flex conpad">
+        <img src="./assets/images/header.png" alt="banner-img">
+        <div class="banner-text">
+            <h1>Nike</h1>
+            <h2>Air Jordan</h2>
+            <h3>Retro XI</h3>
+            <button class="btn">Book Your Slot Now</button>
+        </div>
+       </div>
+       <!-- Banner End -->
+
+       
+       <!-- About start -->
+       <div class="about flex " id="about">
+        <div class="about-text">
+            <h1 class="header">About Us</h1>
+            <i  class="italic">Inspirational Story</i>
+            <p>Lorem Ipsum is simply dummy text of the span <i> printing and typesetting industry.</i> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+                of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has.</p>
+                <span> <i>been the industry's standard dummy text</i>  ever since the 1500s , when an unknown printer took a galley of type and scrambled it to make a type specimen book</span>
+        </div>
+        <img src="./assets/images/about.png" alt="">
+       </div>
+       <!-- About End -->
+
+
+        <!-- feature start -->
+        <div class="feature conpad" id="feature">
+            <i class="italic">Superior Features</i>
+            <h1 class="header">Perfect For Gym</h1>
+            <!-- <div class="divider"></div> -->
+            <img src="./assets/images/feature.png" alt="feature-img" class="feature-img">
+            <div class="feature-items grid ">
+                <div class="item1">
+                    <h1>01</h1>
+                    <p>Flexible Base</p>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</span>
+                </div>
+                <div class="item1">
+                    <h1>02</h1>
+                    <p>Strong & Stable</p>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</span>
+                </div>
+                <div class="item1">
+                    <h1>03</h1>
+                    <p>Superior Durability</p>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</span>
+                </div>
+                <div class="item1">
+                    <h1>04</h1>
+                    <p>Unique Pattern</p>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</span>
+                </div>
+            </div>
+        </div>
+        <!-- feature End -->
+
+         <!-- related start -->
+         <div class="related" id="related">
+            <i class="italic">Related Product</i>
+            <h1 class="header">You May Like This</h1>
+            <div class="related-flex flex">
+                <div class="related-box ">
+                    <h1>Nike Metcon 4 iD</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</span>
+
+                        <button class="btn">$100 | Buy Now</button>
+                </div>
+                <img src="./assets/images/related-1.png" alt="related-img">
+            </div>
+            <div class="related-flex flex">
+                <img src="./assets/images/related-2.png" alt="related-img" class="related-img-order">
+                <div class="related-box ">
+                    <h1>Nike Metcon 4 iD</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</span>
+
+                        <button class="btn">$100 | Buy Now</button>
+                </div>
+            </div>
+         </div>
+         <!-- related End -->
+
+        
+          <!-- review start -->
+          <div class="review" id="review">
+            <img src="./assets/images/waves.png" alt="reviw-img">
+            <div class="review-inner conpad">
+                <i class="italic">Product Review</i>
+                <h1 class="header">Our Client Love Us</h1>
+                <div class="review-slider">
+                    <div class="review-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus iste animi ex. Quasi doloribus 
+                            aspernatur eligendi ducimus fuga, nobis dolorum deserunt qui magnam laborum alias?</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <h4>Stephen Gasel</h4>
+                            <small>New York</small>
+                    </div>
+                    <div class="review-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus iste animi ex. Quasi doloribus 
+                            aspernatur eligendi ducimus fuga, nobis dolorum deserunt qui magnam laborum alias?</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <h4>Goffry Aba</h4>
+                            <small>U.A.E</small>
+                    </div>
+                    <div class="review-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus iste animi ex. Quasi doloribus 
+                            aspernatur eligendi ducimus fuga, nobis dolorum deserunt qui magnam laborum alias?</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <h4>Lucas Okafor</h4>
+                            <small>U.S.A</small>
+                    </div>
+                    <div class="review-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus iste animi ex. Quasi doloribus 
+                            aspernatur eligendi ducimus fuga, nobis dolorum deserunt qui magnam laborum alias?</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <h4>Mathew Steven</h4>
+                            <small>Nigeria</small>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- review End -->
+
+
+           <!-- rFeature start -->
+          <div class="feature" id="product">
+            <div class="feature-flex">
+                <div class="feature-box">
+                    <div class="overlay"></div>
+                    <div class="feature-text">
+                        <h1>All Jordan 6 Retro</h1>
+                        <p>Take upto<span>50% off</span></p>
+                        <button class="btn btn2">View More</button>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="overlay"></div>
+                    <div class="feature-text">
+                        <h1>All Jordan 6 Retro</h1>
+                        <p>Take upto<span>50% off</span></p>
+                        <button class="btn btn2">View More</button>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="overlay"></div>
+                    <div class="feature-text">
+                        <h1>All Jordan 6 Retro</h1>
+                        <p>Take upto<span>50% off</span></p>
+                        <button class="btn btn2">View More</button>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="overlay"></div>
+                    <div class="feature-text">
+                        <h1>All Jordan 6 Retro</h1>
+                        <p>Take upto<span>50% off</span></p>
+                        <button class="btn btn2">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <img src="./assets/images/brand-1.png" alt="product-img" class="pro-img">
+                <img src="./assets/images/brand-2.png" alt="product-img" class="pro-img">
+                <img src="./assets/images/brand-3.png" alt="product-img" class="pro-img">
+                <img src="./assets/images/brand-4.png" alt="product-img" class="pro-img">
+                <img src="./assets/images/brand-5.png" alt="product-img" class="pro-img">
+                <img src="./assets/images/brand-6.png" alt="product-img" class="pro-img">
+            </div>
+          </div>
+          <!-- rFeature End -->
+
+
+          <!-- contact start -->
+          <div class="contact conpad" id="contact">
+            <i class="italic">Contact us Now</i>
+            <h1 class="header">Get in Touch With Us</h1>
+            <div class="contact-inner">
+                <div class="contact-text ">
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+                         <div class="contact-info">
+                            <div class="contact-info-text">
+                                <h5><i class="fa fa-map-marker"></i>Address</h5>
+                                <span>95 Amphitheatre Parkway Mountain View CA, United Stat</span>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5><i class="fa fa-map-marker"></i>Contact Us</h5>
+                                <span>Phone: +1 (312) 380-6650 FAX: +1 (312) 380-6650 company@domain.com</span>
+                            </div>
+
+                         </div>
+                
+                </div>
+                <form class="conatct-input">
+                   <input type="text" class="name" placeholder="Your Name">
+                   <input type="text" class="email" placeholder="Your Email">
+                   <input type="text" class="phone" placeholder="Your Phone">
+                   <input type="text" class="subject" placeholder="Subject">
+                   <input type="text" class="message" placeholder="Message">
+                   <button class="btn btn3">Send Message</button>
+                </form>
+            </div>
+          </div>
+          <!-- contact End -->
+
+
+
+          <!-- foter start -->
+          <footer>
+              <img src="./assets/images/footer-logo.png" alt="">
+              <i>Copyright © 2023, R-Shoe by Alimisolution</i>
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-linkedin"></i>
+
+          </footer>
+          <!-- foter End -->
+ 
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
