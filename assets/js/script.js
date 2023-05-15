@@ -17,7 +17,7 @@ const reviewSlide = document.querySelectorAll('.review-box');
 // Page loader
 setTimeout(() =>{
     loader.remove()
-},2000)
+},3000)
 
 
 // toggle menu
@@ -57,4 +57,4 @@ setInterval(() =>{
     }
     reviewSlide.forEach((el,i) => el.style.transform = `translateX(${100 * (i - curSlide)}%)`)
     
-},2000)
+},4000)
