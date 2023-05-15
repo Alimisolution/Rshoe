@@ -354,7 +354,7 @@ color: var(--black);
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 2rem 3rem;
+   gap: 2rem;
     padding: 3rem 0;
     background-color: var(--b2);
 }
@@ -631,7 +631,7 @@ footer i.fa:hover{
         font-size: 1rem;
     }
     .products{
-        padding: 1rem 0;
+        padding: 1rem;
     }
     .contact-text, .contact-input{
         width: 100%;
